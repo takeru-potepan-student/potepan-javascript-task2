@@ -1,0 +1,23 @@
+.calculator_display {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 34px;
+    text-align: right;
+    width: 100%;
+    border: none;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.calculator_key {
+    font-size: 30px;
+    height: 50px;
+    border-radius: 10px;
+    width: 100%;
+}
+.calculator {
+    border-spacing: 2px;
+    width: 600px;
+    table-layout: fixed;
+    box-sizing: border-box;
+}

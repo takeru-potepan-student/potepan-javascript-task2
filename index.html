@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>電卓</title>
+        <link rel="stylesheet" href="main.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    </head>
+    <body>
+        <table class="calculator">
+            <tr>
+                <td colspan="4">
+                    <input type="text" class="calculator_display" readonly>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="calculator_key">7</button>
+                </td>
+                <td>
+                    <button class="calculator_key">8</button>
+                </td>
+                <td>
+                    <button class="calculator_key">9</button>
+                </td>
+                <td>
+                    <button class="calculator_key calculator_key_operator">+</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="calculator_key">4</button>
+                </td>
+                <td>
+                    <button class="calculator_key">5</button>
+                </td>
+                <td>
+                    <button class="calculator_key">6</button>
+                </td>
+                <td>
+                    <button class="calculator_key calculator_key_operator">-</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="calculator_key">1</button>
+                </td>
+                <td>
+                    <button class="calculator_key">2</button>
+                </td>
+                <td>
+                    <button class="calculator_key">3</button>
+                </td>
+                <td>
+                    <button class="calculator_key calculator_key_operator">*</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="calculator_key">0</button>
+                </td>
+                <td>
+                    <button class="calculator_key">00</button>
+                </td>
+                <td>
+                    <button class="calculator_key">.</button>
+                </td>
+                <td>
+                    <button class="calculator_key calculator_key_operator">/</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button class="calculator_key calculator_key_clear">AC</button>
+                </td>
+                <td colspan="2">
+                    <button class="calculator_key calculator_key_enter">=</button>
+                </td>
+            </tr>
+        </table>
+        <script src="main.js"></script>
+    </body>
+</html>
